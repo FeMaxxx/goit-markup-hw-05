@@ -84,7 +84,11 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="hiro_button" type="button">
+          <button
+            class="hiro_button"
+            type="button"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -600,5 +604,22 @@
       </div>
     </footer>
     <!--▲▲▲▲▲▲▲▲▲▲▲▲▲▲FOOTER▲▲▲▲▲▲▲▲▲▲▲▲▲▲-->
+
+    <!--▼▼▼▼▼▼▼▼▼▼▼▼▼▼MODAL-WINDOW▼▼▼▼▼▼▼▼▼▼▼▼▼▼-->
+    <section class="modal_backdrop is-hidden" data-modal>
+      <div class="modal">
+        <svg
+          class="modal_close-icon"
+          width="24"
+          height="24"
+          data-modal-close
+        >
+          <use href="./images/sprite.svg#close"></use>
+        </svg>
+      </div>
+    </section>
+    <!--▲▲▲▲▲▲▲▲▲▲▲▲▲▲MODAL-WINDOW▲▲▲▲▲▲▲▲▲▲▲▲▲▲-->
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

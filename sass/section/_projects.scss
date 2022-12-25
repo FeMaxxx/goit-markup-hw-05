@@ -31,6 +31,7 @@
 
 .projects_overlay {
   position: absolute;
+  overflow: auto;
   padding: 40px 32px;
   transform: translate(0, 100%);
 
